@@ -1,9 +1,8 @@
 /*Nina Kong*/
 $(document).ready(function(){
-	var windowHeight = $( window ).height();
+    var windowHeight = $( window ).height();
     var con = $(".Content");
     con.parentsUntil($("body")).css("height", windowHeight);
-	//$(".container").height(windowHeight);
 
     //alert($("#Content").html()); 
 
@@ -32,18 +31,5 @@ $(document).ready(function(){
     document.getElementById("updateAllButton").addEventListener("click", function(event) {
         updateAllParagraph();
     });
-
-
-    //$(".Content").children().css("font-size", "2.5em");
-
-    //target.prev().css("color", "#b26c34");
-    //target.next().css("color", "#eba96d");
-
-    
-
-    //$(".Content").find(".github").css("color", "#b37aa5"); 
-
-
-
 
 });
